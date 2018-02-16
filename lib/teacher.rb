@@ -4,6 +4,6 @@ class Teacher < User
 
   def teach
     KNOWLEDGE_size = KNOWLEDGE.length
-    return KNOWLEDGE[rand(KNOWLEDGE_size -1 )]
+    return KNOWLEDGE[8]
   end
 end
